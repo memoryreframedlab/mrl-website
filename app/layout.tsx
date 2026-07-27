@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     siteName: "Memory Reframed Lab",
     locale: "ja_JP",
   },
+  other: { "google-adsense-account": "ca-pub-4146788733785651" },
 };
 
 export default function RootLayout({
@@ -21,6 +22,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja" style={{ colorScheme: "light" }}>
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4146788733785651"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="min-h-screen bg-white text-stone-900 antialiased">
         <header className="border-b border-stone-200">
           <div className="mx-auto max-w-3xl px-6 py-4 flex items-center justify-between">
