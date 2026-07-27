@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     siteName: "Memory Reframed Lab",
     locale: "ja_JP",
   },
-  other: { "google-adsense-account": "ca-pub-4146788733785651" },
+  other: { "google-adsense-account": "ca-pub-4146788733786561" },
 };
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
       <head>
         <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4146788733785651"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4146788733786561"
           crossOrigin="anonymous"
         />
       </head>
