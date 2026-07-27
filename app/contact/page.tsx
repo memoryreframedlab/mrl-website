@@ -17,8 +17,8 @@ export default function ContactPage() {
       <div className="bg-stone-50 rounded-lg px-6 py-8 border border-stone-200">
         <p className="text-xs text-stone-500 mb-2">メールアドレス</p>
         <p className="text-stone-900 font-medium">
-          <a href="mailto:contact@memoryreframedlab.com" className="hover:underline">
-            contact@memoryreframedlab.com
+          <a href="mailto:apr_25@icloud.com" className="hover:underline">
+            apr_25@icloud.com
           </a>
         </p>
       </div>
