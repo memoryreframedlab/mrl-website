@@ -87,6 +87,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Activities */}
+      <section className="mb-20">
+        <h2 className="text-xs font-semibold text-stone-400 tracking-widest uppercase mb-2">
+          Activities
+        </h2>
+        <p className="text-stone-500 text-sm mb-8">日本文化を100年先へ残すための活動です。</p>
+        <div className="border border-stone-200 rounded-lg px-6 py-5 bg-stone-50">
+          <p className="text-xs font-medium text-stone-400 mb-1 tracking-wide">YouTube</p>
+          <h3 className="font-semibold text-stone-800 mb-2">Dig out Japan's charm</h3>
+          <p className="text-stone-600 text-sm leading-relaxed mb-4">
+            日本の日常にある「当たり前」を、毎日記録・発信しています。
+          </p>
+          <a
+            href="https://m.youtube.com/@digoutjapanscharm"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-stone-500 hover:text-stone-900 underline underline-offset-2"
+          >
+            YouTubeチャンネルを見る →
+          </a>
+        </div>
+      </section>
+
       {/* Contact */}
       <section>
         <h2 className="text-xs font-semibold text-stone-400 tracking-widest uppercase mb-4">
